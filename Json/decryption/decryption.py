@@ -1,4 +1,5 @@
 """
+
 В этой задаче вам необходимо раскодировать текст, 
 находящийся в данном текстовом файле. 
 Ключ для декодирования располагается в json-файле. 
@@ -10,8 +11,8 @@
 
 import json
 result = ""
-with open(r"C:\Users\belou\Desktop\Python\json\decryption\Alphabet.json") as file:
-    data_txt = open(r"C:\Users\belou\Desktop\Python\json\decryption\Abracadabra.txt")
+with open(***path to json file***) as file:
+    data_txt = open(***path to txt file***)
     data = json.load(file)
     for i in data_txt:
         for j in i:
