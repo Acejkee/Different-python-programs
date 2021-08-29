@@ -17,7 +17,7 @@
 """
 
 d = {i: [0, 0] for i in range(1, 12)}
-with open(r'C:\Users\belou\Desktop\Python\Stepic\medium height\dataset.txt') as inf:
+with open("path dataset.txt") as inf:
 
     for i in inf:
         line = i.strip().split('\t')
