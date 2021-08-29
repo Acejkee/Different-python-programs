@@ -15,7 +15,7 @@ https://stepic.org/media/attachments/course67/3.6.3/
 """
 
 import requests
-with open(r"C:\Users\belou\Desktop\Python\Stepic\We are the champions\dataset.txt") as data:
+with open(***path to file***) as data:
     r = requests.get(data.readline().strip())
     while True:
         if not r.text.startswith('We'):
