@@ -12,8 +12,8 @@
 
 import json
 max_count = 0
-id_group = 0  # переменные
-with open(r'C:\Users\belou\Desktop\Python\json\group people\group_people.json') as file:
+id_group = 0 
+with open(***path to json file***) as file:
     data = json.load(file)
     id_group = 0
     max_count = 0
