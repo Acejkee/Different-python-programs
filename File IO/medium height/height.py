@@ -17,7 +17,7 @@
 """
 
 d = {i: [0, 0] for i in range(1, 12)}
-with open("path dataset.txt") as inf:
+with open(***path to file***) as inf:
 
     for i in inf:
         line = i.strip().split('\t')
