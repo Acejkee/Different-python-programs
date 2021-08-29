@@ -17,7 +17,7 @@
 """
 
 
-with open(r'C:\Users\belou\Desktop\Python\Stepic\rating\dataset.txt' , encoding='utf-8') as data:
+with open(***path to file*** , encoding='utf-8') as data:
     s = []
     for i in data:
         s.append(i.strip().split(";"))
