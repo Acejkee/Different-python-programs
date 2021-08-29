@@ -16,11 +16,10 @@ import json
 
 with open(***path to file***) as file:
     data = json.load(file)
-
-for id in data:
-    print(id['manager']['first_name'], id['manager']['last_name'], end=' ')
-    cars = id['cars']
-    s = 0
-    for car in cars:
-        s += car['price']
-    print(s)
+    for id in data:
+        print(id['manager']['first_name'], id['manager']['last_name'], end=' ')
+        cars = id['cars']
+        s = 0
+        for car in cars:
+            s += car['price']
+        print(s)
