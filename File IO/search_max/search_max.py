@@ -10,7 +10,7 @@
 
 """
 
-with open(r'C:\Users\belou\Desktop\Python\Stepic\search_max\dataset.txt') as data:
+with open(***path to file***) as data:
     data = data.read().lower().split()
     word = ""
     max_count = 0
