@@ -1,4 +1,5 @@
 """
+
 К вам в руки попал файлик формата json , 
 в котором содержится информация одного автосалона о продажах менеджеров. 
 В файле указано для каждого менеджера список проданных им автомобилей, 
@@ -13,7 +14,7 @@
 
 import json
 
-with open(r"C:\Users\belou\Desktop\Python\json\manager_sales\manager_sales.json", 'r') as file:
+with open(***path to file***) as file:
     data = json.load(file)
 
 for id in data:
